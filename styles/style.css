@@ -62,11 +62,12 @@
     gap: 20px;
 }
 
+
 .bienvenidos {
     background-color: rgba(174, 218, 208, 0.470);
     padding:15px;
     border-radius: 20px;
-
+    font-size: 1.998rem;
 }
 .introduccion {
     padding-top: 25px;
