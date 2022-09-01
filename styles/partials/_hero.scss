@@ -1,0 +1,24 @@
+
+.imagenPrincipal {
+    background-position: center center;
+    height: 300px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+    .bienvenidos {
+        background-color: $transparentSecondaryColor;
+        padding:15px;
+        border-radius: 20px;
+        font-size: 1.998rem;
+    }
+}
+.introduccion {
+    padding-top: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

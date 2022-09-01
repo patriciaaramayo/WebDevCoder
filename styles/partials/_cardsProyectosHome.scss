@@ -1,0 +1,27 @@
+.proyectos {
+    padding-top: 25px;
+    text-align: center;
+    padding: 50px;
+    gap: 60px;
+    justify-content: center;
+
+    .listaProyectos{
+        padding: 50px;
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .proyecto{
+            background-color:$secondaryColor;
+            border-radius: 20px;
+            overflow: hidden;
+            width: 500px; 
+            text-align: center;
+
+            .proyecto_imagen {
+                width: 100%; 
+            }
+        }      
+    }
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
 
 *{
 	margin:0;
@@ -7,30 +7,31 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.logo {
-    width: 40px;
-    height: 40px;
-}
+*::selection {
+    background-color:#f7e4e5;
+    color:blueviolet;
+} */
 
-.encabezado {
+
+
+/* .encabezado {
     background-color:#f7e4e5;
     display: flex;
     padding: 10px;
     position: sticky;
     top: 0;
-}
-
+} */
+/* 
 .encabezado a {
     text-decoration: none;
-}
+} */
 
-.barraNavegacion {
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
+/* .logo {
+    width: 40px;
+    height: 40px;
+} */
 
-.menu {
+/* .menu {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -39,20 +40,22 @@
     text-transform: uppercase;
 }
 
-.menu a {
-    text-decoration: none;
-}
-
 .menu_item{
     font-weight: bold;
 }
+
+.menu_item a {
+    text-decoration: none;
+} */
+
+
 
 
 
 
 /** IMAGEN PRINCIPAL **/
 
-.imagenPrincipal {
+/* .imagenPrincipal {
 
     background-position: center center;
     height: 300px;
@@ -61,10 +64,10 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
-}
+} */
 
 
-.bienvenidos {
+/* .bienvenidos {
     background-color: rgba(174, 218, 208, 0.470);
     padding:15px;
     border-radius: 20px;
@@ -76,9 +79,9 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
+} */
 
-.servicios {
+/* .servicios {
     padding-top: 25px;
     text-align: center;
 }
@@ -101,11 +104,11 @@
 
 .servicio_imagen {
     width: 100%;
-}
+} */
 
 /** PROYECTOS **/
 
-.proyectos {
+/* .proyectos {
     padding-top: 25px;
     text-align: center;
     padding: 50px;
@@ -123,7 +126,6 @@
 
 .proyecto_imagen {
     width: 100%; 
-    /* imagen con 200px */
 }
 
 .listaProyectos{
@@ -136,7 +138,10 @@
 
 .titulo_proyectos{
     text-align: center;
-}
+} */
+
+
+/* PROYECTOS */
 .container-img{
     width: 100%;
     max-width: 1100px;
@@ -187,7 +192,8 @@
     }
 }
 
-.como-trabajamos {
+/* COMO TRABAJAMOS */
+/* .como-trabajamos {
     padding-top: 25px;
     text-align: center;
     padding: 50px;
@@ -195,8 +201,7 @@
     justify-content: center;
 }
 
-/** CARDS **/
-.cards {
+.cards_trabajo {
     padding: 50px;
     display: flex;
     gap: 60px;
@@ -227,6 +232,17 @@
 .card_titulo {
     text-align: center;
 }
+
+.card_descripcion{
+    text-align: center;
+}
+
+.card_boton {
+    text-align: center;
+} */
+
+
+
 
 /* TESTIMONIOS */
 .testimonios {

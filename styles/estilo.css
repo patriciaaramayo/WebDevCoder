@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+*::-moz-selection {
+  background-color: #f7e4e5;
+  color: blueviolet;
+}
+*::selection {
+  background-color: #f7e4e5;
+  color: blueviolet;
+}
+
+.encabezado {
+  background-color: #f7e4e5;
+  display: flex;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.encabezado a {
+  text-decoration: none;
+}
+.encabezado a .logo {
+  width: 40px;
+  height: 40px;
+}
+.encabezado .barraNavegacion {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.encabezado .barraNavegacion .menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  text-transform: uppercase;
+}
+.encabezado .barraNavegacion .menu .menu_item {
+  font-weight: bold;
+}
+.encabezado .barraNavegacion .menu .menu_item a {
+  text-decoration: none;
+}
+
+.imagenPrincipal {
+  background-position: center center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.imagenPrincipal .bienvenidos {
+  background-color: rgba(174, 218, 208, 0.47);
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 1.998rem;
+}
+
+.introduccion {
+  padding-top: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.servicios {
+  padding-top: 25px;
+  text-align: center;
+}
+.servicios .listaServicios {
+  padding: 50px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.servicios .listaServicios .servicio {
+  background-color: #f7e4e5;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+}
+.servicios .listaServicios .servicio .servicio_imagen {
+  width: 100%;
+}
+
+.proyectos {
+  padding-top: 25px;
+  text-align: center;
+  padding: 50px;
+  gap: 60px;
+  justify-content: center;
+}
+.proyectos .listaProyectos {
+  padding: 50px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.proyectos .listaProyectos .proyecto {
+  background-color: rgb(174, 218, 208);
+  border-radius: 20px;
+  overflow: hidden;
+  width: 500px;
+  text-align: center;
+}
+.proyectos .listaProyectos .proyecto .proyecto_imagen {
+  width: 100%;
+}
+
+.como-trabajamos {
+  padding-top: 25px;
+  text-align: center;
+  padding: 50px;
+  gap: 60px;
+  justify-content: center;
+}
+.como-trabajamos .cards_trabajo {
+  padding: 50px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.como-trabajamos .cards_trabajo .card_trabajo {
+  background-color: #f7e4e5;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+}
+.como-trabajamos .cards_trabajo .card_trabajo .card_imagen {
+  width: 100%;
+}
+.como-trabajamos .cards_trabajo .card_trabajo .card_info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.como-trabajamos .cards_trabajo .card_trabajo .card_info .card_titulo {
+  text-align: center;
+}
+.como-trabajamos .cards_trabajo .card_trabajo .card_info .card_descripcion {
+  text-align: center;
+}
+.como-trabajamos .cards_trabajo .card_trabajo .card_info .card_boton {
+  text-align: center;
+}/*# sourceMappingURL=estilo.css.map */

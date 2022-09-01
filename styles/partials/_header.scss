@@ -1,0 +1,40 @@
+.encabezado {
+    background-color: $mainColor;
+    display: flex;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+
+    a {
+        text-decoration: none;
+
+        .logo {
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .barraNavegacion {
+            width: 100%;
+            display: flex;
+            align-items: center;
+
+            .menu {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                width: 100%;
+                text-transform: uppercase;
+
+                .menu_item{
+                    font-weight: bold;
+                    a {
+                        text-decoration: none;
+                    }
+                }
+
+            }
+
+    }
+    
+}
