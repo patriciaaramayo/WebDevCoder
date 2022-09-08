@@ -9,3 +9,9 @@ $secondaryColor:rgba(174, 218, 208);
 $transparentSecondaryColor:rgba(174, 218, 208, 0.470);
 
 $logo:40px;
+
+%flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

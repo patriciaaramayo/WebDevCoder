@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap");
+.testimonios .lista-testimonios, .como-trabajamos .cards_trabajo, .proyectos .listaProyectos, .servicios .listaServicios {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -79,10 +85,7 @@
 }
 .servicios .listaServicios {
   padding: 50px;
-  display: flex;
   gap: 60px;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 .servicios .listaServicios .servicio {
   background-color: #f7e4e5;
@@ -104,10 +107,7 @@
 }
 .proyectos .listaProyectos {
   padding: 50px;
-  display: flex;
   gap: 60px;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 .proyectos .listaProyectos .proyecto {
   background-color: rgb(174, 218, 208);
@@ -129,10 +129,7 @@
 }
 .como-trabajamos .cards_trabajo {
   padding: 50px;
-  display: flex;
   gap: 60px;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 .como-trabajamos .cards_trabajo .card_trabajo {
   background-color: #f7e4e5;
@@ -140,9 +137,6 @@
   overflow: hidden;
   width: 200px;
   text-align: center;
-}
-.como-trabajamos .cards_trabajo .card_trabajo .card_imagen {
-  width: 100%;
 }
 .como-trabajamos .cards_trabajo .card_trabajo .card_info {
   padding: 20px;
@@ -160,6 +154,10 @@
   text-align: center;
 }
 
+.como-trabajamos .cards_trabajo .card_trabajo .card_imagen {
+  width: 100%;
+}
+
 .testimonios {
   padding-top: 25px;
   text-align: center;
@@ -171,10 +169,7 @@
   padding: 40px 0;
   color: #434343;
   text-align: center;
-  display: flex;
   gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 .testimonios .lista-testimonios .testimonio {
   background: #f7e4e5;
@@ -184,8 +179,6 @@
   border-radius: 20px;
 }
 .testimonios .lista-testimonios .testimonio img {
-  width: 100px;
-  height: 100px;
   border-radius: 50%;
 }
 .testimonios .lista-testimonios .testimonio .nombre {
@@ -196,6 +189,11 @@
 .testimonios .lista-testimonios .testimonio .estrellas {
   color: rgb(174, 218, 208);
   margin-bottom: 20px;
+}
+
+.testimonios .lista-testimonios .testimonio img {
+  width: 100px;
+  height: 100px;
 }
 
 footer {
@@ -320,4 +318,8 @@ h1 {
 }
 h1 {
   color: rgb(174, 218, 208);
+}
+
+.carousel .carousel-item img {
+  height: 100vh;
 }/*# sourceMappingURL=estilo.css.map */

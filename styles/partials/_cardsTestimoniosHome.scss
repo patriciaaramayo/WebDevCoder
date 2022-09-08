@@ -9,10 +9,12 @@
         padding: 40px 0;
         color: #434343;
         text-align: center;
-        display: flex;
         gap:20px;
-        justify-content: center;
-        flex-wrap: wrap;
+
+        //extend
+        // display: flex;
+        // justify-content: center;
+        // flex-wrap: wrap;
 
         .testimonio {
             background: $mainColor;
@@ -21,8 +23,6 @@
             width: 500px;
             border-radius: 20px;
             img {
-                width: 100px;
-                height: 100px;
                 border-radius: 50%;
             }
             .nombre {
@@ -39,5 +39,15 @@
     
 }
 
+@mixin tamanos($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
 
+.testimonios .lista-testimonios .testimonio img {
+    @include tamanos(100px, 100px);
+}
 
+.testimonios .lista-testimonios {
+    @extend %flex;
+}
