@@ -1,18 +1,25 @@
 h1 {
     color: rgba(174, 218, 208);
 }
-
-.carousel {
-
-    .carousel-item {
-
-            img {
-                height: 100vh;
-            }
-        
-    }
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-// .titulo {
-//     margin-top: 25px;
-// }
+.carousel-caption {
+	bottom: 370px;
+    color: rgb(18, 17, 17);
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+
+.carousel-caption p {
+	width: 75%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}

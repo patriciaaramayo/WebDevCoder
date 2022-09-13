@@ -1,31 +1,11 @@
-.servicios {
-    padding-top: 25px;
-    text-align: center;
+.card {
 
-    .listaServicios {
-        padding: 50px;
-        gap: 60px;
+        border-radius: 20px;
 
-        //extend
-        // display: flex;
-        // justify-content: center;
-        // flex-wrap: wrap;
-        
-        .servicio {
-            background-color:$mainColor;
-            border-radius: 20px;
-            overflow: hidden;
-            width: 200px;
-            text-align: center;
-    
-            .servicio_imagen {
-                width: 100%;
-            }
+        .servicio_imagen {
+            width: 100%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
         }
-    }
 
-}
-
-.servicios .listaServicios {
-    @extend %flex;
 }

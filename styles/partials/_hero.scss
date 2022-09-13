@@ -1,7 +1,7 @@
 
 .imagenPrincipal {
     background-position: center center;
-    height: 300px;
+    // height: 300px;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -13,6 +13,7 @@
         padding:15px;
         border-radius: 20px;
         font-size: 1.998rem;
+        color:black;
     }
 }
 .introduccion {

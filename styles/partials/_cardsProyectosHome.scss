@@ -2,17 +2,12 @@
     padding-top: 25px;
     text-align: center;
     padding: 50px;
-    gap: 60px;
+    gap: 60px; 
     justify-content: center;
 
     .listaProyectos{
         padding: 50px;
         gap: 60px;
-
-        //extend
-        // display: flex;
-        // justify-content: center;
-        // flex-wrap: wrap;
 
         .proyecto{
             background-color:$secondaryColor;

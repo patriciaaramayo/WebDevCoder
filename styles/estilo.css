@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap");
-.testimonios .lista-testimonios, .como-trabajamos .cards_trabajo, .proyectos .listaProyectos, .servicios .listaServicios {
+.testimonios .lista-testimonios, .como-trabajamos .cards_trabajo, .proyectos .listaProyectos {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -57,7 +57,6 @@
 
 .imagenPrincipal {
   background-position: center center;
-  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,6 +68,7 @@
   padding: 15px;
   border-radius: 20px;
   font-size: 1.998rem;
+  color: black;
 }
 
 .introduccion {
@@ -79,23 +79,13 @@
   gap: 20px;
 }
 
-.servicios {
-  padding-top: 25px;
-  text-align: center;
-}
-.servicios .listaServicios {
-  padding: 50px;
-  gap: 60px;
-}
-.servicios .listaServicios .servicio {
-  background-color: #f7e4e5;
+.card {
   border-radius: 20px;
-  overflow: hidden;
-  width: 200px;
-  text-align: center;
 }
-.servicios .listaServicios .servicio .servicio_imagen {
+.card .servicio_imagen {
   width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .proyectos {
@@ -320,6 +310,26 @@ h1 {
   color: rgb(174, 218, 208);
 }
 
-.carousel .carousel-item img {
-  height: 100vh;
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.carousel-caption {
+  bottom: 370px;
+  color: rgb(18, 17, 17);
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
 }/*# sourceMappingURL=estilo.css.map */
