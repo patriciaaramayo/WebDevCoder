@@ -1,25 +1,56 @@
-h1 {
+body{
+	overflow-x: hidden;
+
+	h1, h2{
     color: rgba(174, 218, 208);
-}
-.container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
-}
+	}
 
-.carousel-caption {
-	bottom: 370px;
-    color: rgb(18, 17, 17);
-}
-.carousel-caption h5 {
-	font-size: 45px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-top: 25px;
-}
+	.container-fluid {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 
-.carousel-caption p {
-	width: 75%;
-	margin: auto;
-	font-size: 18px;
-	line-height: 1.9;
+	.carousel-caption {
+		bottom: 370px;
+		color: rgb(18, 17, 17);
+
+
+	}
+
+	input[type=number]::-webkit-inner-spin-button, 
+	input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+	}
+
+	.boton{
+		background-color:#aedad0; 
+		border-color:#aedad0;
+		
+	}
+
+	.boton:hover{
+		background-color:#aedad0; 
+		border-color:#aedad0;
+
+	}
+
+	.card {
+
+        border-radius: 20px;
+	}
+
+	.gotopbtn{
+		position: fixed;
+		width: 50px;
+		height: 50px;
+		background-color: #99c7bc;
+		bottom: 120px;
+		right: 20px;
+		text-decoration: none;
+		text-align: center;
+		line-height: 50px;
+		color: white;
+		font-size: 22px; 
+		}
 }

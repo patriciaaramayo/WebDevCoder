@@ -3,9 +3,4 @@
 	padding: 0;
 	box-sizing: border-box;
     font-family: $fontMonserrat;
-
-    &::selection {
-        background-color:#f7e4e5;
-        color:blueviolet;
-    }
 }

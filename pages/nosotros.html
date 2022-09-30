@@ -13,23 +13,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="../styles/estilo.css">
-
+    <link rel="stylesheet" href="../styles/estilo.css">
 </head>
 
-<body>
-    <header class="encabezado">
-        <a href="#">
-            <img class="logo" src="../images/icono.png" alt="Logo paisajismo">
-        </a>
-        <nav class="barraNavegacion">
-            <ul class="menu">
-                <li class="menu_item"><a href="../index.html">Inicio</a></li>
-                <li class="menu_item"><a href="../pages/servicios.html">Servicios</a></li>
-                <li class="menu_item"><a href="../pages/proyectos.html">Proyectos</a></li>
-                <li class="menu_item"><a href="../pages/nosotros.html">Nosotros</a></li>
-                <li class="menu_item"><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
+<body class="d-flex flex-column min-vh-100">
+    <header class="background-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid ms-3 me-3">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../images/logoWeb.png" alt="" width="30" height="24" class="header-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse header-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link menu-item" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-item" href="../pages/servicios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-item" href="../pages/proyectos.html">PROYECTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-item" href="../pages/nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-item" href="../pages/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -41,7 +59,9 @@
                     </h1>
                 </div>
 
-                <h4 class="text-center text-muted">Nos dedicamos al diseño del paisaje y construcción de espacios verdes. Trabajamos con instituciones y clientes particulares. Convertimos tu espacio en un lugar único.</h4>
+                <h4 class="text-center text-muted">Nos dedicamos al diseño del paisaje y construcción de espacios
+                    verdes. Trabajamos con instituciones y clientes particulares. Convertimos tu espacio en un lugar
+                    único.</h4>
                 <div class="row my-5">
                     <div class="col-12 col-sm-6 col-md-4 m-auto">
                         <div class="card border-0 shadow text-center my-3">
@@ -49,9 +69,7 @@
                                 <img src="https://cdn1.iconfinder.com/data/icons/seo-and-marketing-icons-2/512/93-256.png"
                                     class="icono-servicio" />
                                 <h3>Calidad de servicio</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tempore, et
-                                    inventore
-                                    nulla minima</p>
+                                <p>Nuestro equipo busca los mayores estándares en mantenimiento de espacios verdes.</p>
                             </div>
 
                         </div>
@@ -62,9 +80,9 @@
                                 <img src="https://cdn3.iconfinder.com/data/icons/research-element/1000/Idea-256.png"
                                     class="icono-servicio" />
                                 <h3>Experiencia</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tempore, et
-                                    inventore
-                                    nulla minima</p>
+                                <p>Contamos con mas de 10 años de experiencia en el diseño y planificación
+                                    de espacios verdes.
+                                </p>
                             </div>
 
                         </div>
@@ -75,40 +93,56 @@
                                 <img src="https://cdn4.iconfinder.com/data/icons/business-996/512/Coin_Dolar_Grafik_Bank_Times_Kredit_card-19-256.png"
                                     class="icono-servicio" />
                                 <h3>Precios Competitivos</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tempore, et
-                                    inventore
-                                    nulla minima</p>
+                                <p>Evaluamos diseño, materiales y métodos eficientemente para ofrecer los mejores
+                                    precios del mercado.</p>
                             </div>
-
                         </div>
                     </div>
- 
                 </div>
             </div>
         </section>
     </main>
     </main>
-    <footer>
-        <div class="logo_container">
-            <a href="#">
-                <img class="logo" src="../images/icono.png" alt="Logo paisajismo">
-            </a>
-        </div>
-        <div class="address">
-            <p>San Martin 123. Bs As</p>
-            <p>011568963696</p>
-            <p>paisajismo@mail.com</p>
-        </div>
-        <div class="social">
-            <ul class="social-menu">
-                <li><a href="https://facebook.com/"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://instagram.com/"><i class="fab fa-instagram"></i> </a></li>
-                <li><a href="https://youtube.com/"><i class="fab fa-youtube"></i> </a></li>
-            </ul>
-        </div>
-    </footer>
+    <div class="d-flex flex-column mt-auto">
+        <footer class="w-100  flex-shrink-0">
+            <div class="container mb-0 mt-3">
+                <div class="row gy-4 gx-5 justify-content-center">
+                    <div class="col-lg-4 col-md-4 footerLogo">
+                        <div class="logo_container">
+                            <a href="#">
+                                <img class="logo" src="../images/logoWeb.png" alt="Logo paisajismo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="address col-lg-4 col-md-4">
+                        <ul class=" list-unstyled text-muted">
+                            <li>
+                                <p href="#">Belgrano 123.Bs As</p>
+                            </li>
+                            <li>
+                                <p href="#">011568963696</p>
+                            </li>
+                            <li>
+                                <p href="#">paisajismo@mail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 social-container">
+                        <div class="social col-md-4 col-sm-12 ">
+                            <ul class="social-menu">
+                                <li><a href="https://facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://instagram.com/"><i class="fab fa-instagram"></i> </a></li>
+                                <li><a href="https://youtube.com/"><i class="fab fa-youtube"></i> </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>

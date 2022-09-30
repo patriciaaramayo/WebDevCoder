@@ -1,38 +1,32 @@
-.encabezado {
-    background-color: $mainColor;
-    display: flex;
-    padding: 10px;
-    position: sticky;
-    top: 0;
+.background-header {
+    background-color: #f7e4e5;
 
-    a {
-        text-decoration: none;
+    .header-logo {
+        height: 40px;
+            border-radius: 20px;
+            width: 70%;
+    }
 
-        .logo {
-            width: $logo;
-            height: $logo;
+    .header-collapse {
+        justify-content: center;
+    
+        .navbar-nav {
+            display: flex;
+            gap: 30px;
+        
+            .menu-item {
+                transition: 0.4s;
+                font-size: 18px;
+                text-decoration: none;
+                color: #1dcfb5;
+                letter-spacing: 1px;
+                font-weight: bold;
+            
+            }
+            .menu-item:hover {
+                background-color: #aedad078;
+                border-radius: 15px;
+            }
         }
     }
-    .barraNavegacion {
-            width: 100%;
-            display: flex;
-            align-items: center;
-
-            .menu {
-                list-style: none;
-                display: flex;
-                justify-content: center;
-                gap: 10px;
-                width: 100%;
-                text-transform: uppercase;
-
-                .menu_item{
-                    font-weight: bold;
-                    a {
-                        text-decoration: none;
-                    }
-                }
-            }
-    }
-    
 }
